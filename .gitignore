@@ -217,5 +217,5 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 /training/football-players-detection-1/football-players-detection-1/
-/models/best.pt
-/models/last.pt
+/models/
+
