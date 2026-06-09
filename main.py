@@ -20,8 +20,6 @@ def main ():
                                                                               read_from_stub=True,
                                                                               stub_path='stubs/camera_movement_stub.pkl')
     camera_movement_estimator.add_adjust_positions_to_tracks(tracks, camera_movement_per_frame)
-
-    output_video_frames = tracker.draw_annotations(video_frames,tracks)
     # View Trasnformer
     view_transformer = ViewTransformer()
     view_transformer.add_transformed_position_to_tracks(tracks)
