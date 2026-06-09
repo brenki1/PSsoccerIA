@@ -218,4 +218,6 @@ __marimo__/
 .streamlit/secrets.toml
 /training/football-players-detection-1/football-players-detection-1/
 /models/
+yolov8x.pt
+output_videos/*
 
