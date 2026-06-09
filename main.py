@@ -70,7 +70,5 @@ def main ():
 
     save_video(output_video_frames, 'output_videos/output_video.avi')
 
-    save_video(output_video_frames, 'output_videos/output_video.mp4')
-
 if __name__ == "__main__":
     main()
